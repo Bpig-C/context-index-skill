@@ -1,0 +1,53 @@
+{
+  "output": {
+    "filePath": "PROJECT_INDEX/history\\{项目名}_{datetime}.md",
+    "style": "markdown",
+    "headerText": "",
+    "removeComments": false,
+    "removeEmptyLines": false,
+    "showLineNumbers": false,
+    "showDirectoryStructure": true
+  },
+  "security": {
+    "enableSecurityCheck": true,
+    "excludeSuspiciousFiles": true
+  },
+  "compression": {
+    "enabled": true,
+    "keepSignatures": true,
+    "keepDocstrings": true,
+    "keepInterfaces": true
+  },
+  "ignore": {
+    "customPatterns": [
+      "**/*.md",
+      "**/*.json",
+      "**/*.csv",
+      "**/*.xlsx",
+      "**/*.db",
+      "**/*.sqlite",
+      "**/*.png",
+      "**/*.jpg",
+      "**/*.jpeg",
+      "**/*.gif",
+      "**/*.svg",
+      "**/*.pdf",
+      "**/*.log",
+      "**/*.lock",
+      "**/*.tmp",
+      "**/*.zip",
+      "**/*.tar",
+      "**/*.gz",
+      "PROJECT_INDEX/history/**",
+      ".*/**"
+    ],
+    "useGitignore": true,
+    "useDefaultIgnore": true
+  },
+  "include": [],
+  "_comments": {
+    "filePath": "修改 {项目名} 为实际项目名称",
+    "customPatterns": "根据项目类型添加特定的忽略规则",
+    "include": "如需限制特定文件类型，在此添加，如 [\"**/*.py\", \"**/*.js\"]"
+  }
+}
